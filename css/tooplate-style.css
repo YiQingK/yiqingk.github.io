@@ -490,6 +490,7 @@ b, strong {
 
   .about-image {
     margin-top: 4em;
+    width:auto;
   }
 
   .mobile-mt-2,
