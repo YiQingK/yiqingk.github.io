@@ -59,18 +59,33 @@ a.icon:hover{
   color: #4941E8!important;
 }
 
-a.project-btn{
+p.project-btn{
   color:#5b5b5b;
   font-weight: bold;
-  border-radius: 25px;
-  padding: 30px 29px;
   font-size: 30px;
   line-height: normal;
-  text-align: center;
+  padding: 0px;
+  width:40%;
+  display: inline-block;
 }
 
-a.project-btn:hover{
-  color:black !important;
+img.project-btn{
+  float: right;
+  height:auto;
+  width: 50%;
+  border-radius: 0;
+  padding: 0px;
+  display: inline-block;
+}
+
+.project-btn{
+  border-radius: 25px;
+  padding:20px;
+  margin:10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-brand .uil {
