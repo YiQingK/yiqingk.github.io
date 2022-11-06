@@ -51,6 +51,28 @@ a:hover {
   color: #557BFF !important;
 }
 
+a.icon{
+  color:#557BFF;
+}
+
+a.icon:hover{
+  color: #4941E8!important;
+}
+
+a.project-btn{
+  color:#5b5b5b;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 30px 29px;
+  font-size: 30px;
+  line-height: normal;
+  text-align: center;
+}
+
+a.project-btn:hover{
+  color:black !important;
+}
+
 .navbar-brand .uil {
   font-size: 40px;
 }
