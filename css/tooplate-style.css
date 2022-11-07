@@ -88,6 +88,10 @@ img.project-btn{
   align-items: center;
 }
 
+div.project-btn:hover{
+	border:1px black solid;
+}
+
 .navbar-brand .uil {
   font-size: 40px;
 }
