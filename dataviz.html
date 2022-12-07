@@ -8,10 +8,9 @@
     <meta name="author" content="">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome/font-awesome.min.css">
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
@@ -30,7 +29,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-lg-auto">
+            <ul class="navbar-nav ms-lg-auto">
                 <li class="nav-item">
                     <a href="about.html" class="nav-link"><span data-hover="About">About</span></a>
                 </li>
@@ -49,19 +48,69 @@
     <h4>Data Visualization Project at USF</h4>
 
     <p>This was a solo project done during my Data Visualization class at USF.</p>
-    <p>Project length: ~2 months</p>
+    <p><span style="font-weight: bold">Project length:</span> ~2 months</p>
+    <p><span style="font-weight: bold">Goal:</span> To represent a set of data through different charts using D3.js</p>
 
     <h3>Background</h3>
     <p>This project explores music trends from Spotify's weekly charts and visualizing the data in different methods such as lollipop and bump charts. It also investigates music taste ona global scale through a map displaying top songs of available countries.</p>
 
+	<iframe src="https://yiqingk.github.io/music-data/" style="width:inherit; height:500px;"></iframe>
+
     <h3>Accomplishments</h3>
     <ul>
-        <li class="list-item">Designed website from scratch using HTML, CSS and Javascript</li>
+        <li class="list-item">Coded website from scratch using HTML, CSS and Javascript</li>
         <li class="list-item">Used D3.js library to generate charts(line, bump, lollipop & map) along with tooltips and sliders.</li>
-        <li class="list-item">Received feedback from peers through user testing and implemented new features and fixed problematic areas accordingly</li>
+        <li class="list-item">Received feedback from peers through <span style="font-weight:bold">user testing</span> and implemented new features and fixed problematic areas accordingly</li>
     </ul>
 
+	<br>
+	<h3>Examples of iterations</h3>
+	<h6>from self assessment(alpha) and peer feedback(beta)</h6>
+	
+	<p>Bump Chart</p>
+	<!-- Images -->
+    <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+        <figure class="col-4">
+            <img src="img/alpha1.png" style="width:-webkit-fill-available;height: auto; ">
+            <figcaption>Alpha version</figcaption>
+        </figure>
+        <figure class="col-4">
+            <img src="img/beta1.png" style="width:-webkit-fill-available;height: auto; ">
+            <figcaption>Beta version</figcaption>
+        </figure>
+        <figure class="col-4">
+            <img src="img/Bump.png" style="width:-webkit-fill-available;height: auto; ">
+            <figcaption>Final version</figcaption>
+        </figure>
 
+    </div>
+
+	<p>Line Chart</p>
+	<!-- Images -->
+    <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+        <figure class="col-4">
+            <img src="img/alpha3.png" style="width:-webkit-fill-available;height: auto;">
+            <figcaption>Alpha version</figcaption>
+        </figure>
+        <figure class="col-4">
+            <img src="img/beta2.png" style="width:-webkit-fill-available;height: auto;">
+            <figcaption>Beta version</figcaption>
+        </figure>
+        <figure class="col-4">
+            <img src="img/Line.png" style="width:-webkit-fill-available;height: auto;">
+            <figcaption>Final version</figcaption>
+        </figure>
+    </div>
+	
+    <h3>Challenges Faced and How they were solved</h3>
+    <p>Through the user testing after the beta version, I had received feedback from my peers which included points such as </p>
+    <p><span style="font-weight: bold">Illegible chart legends for the line chart:</span> In the beta version, the 'line' legends were too thin and small. To solve this, I had at first tried out the 'square' legends which ended up looking out of place. I then finalised it to be color text with its name and final value. Another reason for adding the final values, is to help the viewers easily compare numerical values for the charts.</p>
+    <p><span style="font-weight: bold">Line chart is misleading as data starts and ends at different points: </span> Peers had felt the line chart was misleading as the data had different intervals as well as start and end points. To solve this, I had found a different set of data which had a consistent intervals as well as start and end point. I had made sure that this new set of data had an overall same values as the previous set.</p>
+    <p><span style="font-weight: bold">Chart and tooltip misalignment between browsers:</span> To solve the discrepancy, I had removed any hardcode values and altered the code for the tooltips to be responsive. After the changes, I had tested it for the several browsers (chrome, firefox and opera).</p>
+
+    <h3>Further work</h3>
+    <p>With more time, I would like to add a slider or timescale for the map, to be able to view data from different weeks as well as to add more bump charts with an accompanying selector in the form of checkboxes to toggle display on and off.
+        </p><p>Finally, I would like to be able to solve the issue of the wrapping of yaxis tick labels and its animation where they currently are unable to both be on.</p>
 </div>
 
 <!-- FOOTER -->
