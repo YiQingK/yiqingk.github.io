@@ -44,7 +44,7 @@
     -webkit-touch-callout:none
 }
 .owl-carousel .owl-item img{
-    width:20%;
+    width:30%;
 }
 .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{
     display:none
